@@ -1,0 +1,28 @@
+{
+  "name": "firestore",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "dependencies": {
+    "expo": "^37.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+    "redux": "4.0.0",
+    "firebase": "latest",
+    "navigation": "^5.2.0",
+    "react-navigation": "latest",
+    "react-native-screens": "^2.4.0",
+    "react-navigation-stack": "latest",
+    "@react-navigation/stack": "latest",
+    "react-native-reanimated": "^1.7.0",
+    "@react-navigation/native": "latest",
+    "react-native-safe-area-context": "^0.7.3",
+    "@react-native-firebase/firestore": "^6.4.0",
+    "@react-native-community/masked-view": "^0.1.7"
+  }
+}
