@@ -2,27 +2,43 @@
   "name": "firestore",
   "version": "0.0.0",
   "description": "No description",
-  "author": null,
+  "author": "",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "devDependencies": {
     "babel-preset-expo": "^7.0.0"
   },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.9",
+    "@react-native-firebase/firestore": "^6.4.0",
+    "@react-navigation/compat": "^5.1.8",
+    "@react-navigation/drawer": "^5.4.1",
+    "@react-navigation/native": "^5.1.5",
+    "@react-navigation/stack": "^5.2.10",
+    "@types/js-base64": "^2.3.1",
+    "babel-preset-env": "^1.7.0",
     "expo": "^37.0.0",
+    "firebase": "^7.14.0",
+    "js-base64": "^2.5.2",
+    "navigation": "^5.2.0",
     "react": "16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
-    "redux": "4.0.0",
-    "firebase": "latest",
-    "navigation": "^5.2.0",
-    "react-navigation": "latest",
-    "react-native-screens": "^2.4.0",
-    "react-navigation-stack": "latest",
-    "@react-navigation/stack": "latest",
-    "react-native-reanimated": "^1.7.0",
-    "@react-navigation/native": "latest",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.8.0",
     "react-native-safe-area-context": "^0.7.3",
-    "@react-native-firebase/firestore": "^6.4.0",
-    "@react-native-community/masked-view": "^0.1.7"
-  }
+    "react-native-screens": "^2.4.0",
+    "react-navigation": "latest",
+    "react-navigation-stack": "latest",
+    "realm": "^5.0.3",
+    "redux": "4.0.0"
+  },
+  "license": "ISC"
 }
