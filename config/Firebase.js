@@ -2,14 +2,14 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-   apiKey: "AIzaSyDokq0mEg31hzeOGw1hBBhPl4yPh2nxLLY",
-   authDomain: "ahmed-1625a.firebaseapp.com",
-   databaseURL: "https://ahmed-1625a.firebaseio.com",
-   projectId: "ahmed-1625a",
-   storageBucket: "ahmed-1625a.appspot.com",
-   messagingSenderId: "5592717961",
-   appId: "1:5592717961:web:ee84cfb717747c2daf8458",
-   measurementId: "G-YM2ETPXC29"
+   apiKey: "AIzaSyAoVQ1gXiUZRr5dSLCY1WlkPZW_J6sVuzI",
+  authDomain: "account-f6781.firebaseapp.com",
+  databaseURL: "https://account-f6781.firebaseio.com",
+  projectId: "account-f6781",
+  storageBucket: "account-f6781.appspot.com",
+  messagingSenderId: "24346134395",
+  appId: "1:24346134395:web:472d7dd3f1d1372612dfde",
+  measurementId: "G-92VL38BY5J"
 }
 
 
