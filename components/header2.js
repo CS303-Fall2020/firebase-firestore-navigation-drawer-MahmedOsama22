@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   header: {
     height: "100%",
     width: "100%",
-    backgroundColor: "green",
+    backgroundColor: "orange",
     flexDirection: "row",
     justifyContent: "space-between"
   },

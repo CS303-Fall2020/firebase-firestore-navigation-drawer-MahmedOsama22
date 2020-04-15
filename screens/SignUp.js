@@ -88,14 +88,14 @@ export default class SignUp extends React.Component {
           />
           <View style={{ paddingTop: 40 }} />
 
-          <Button title="SignUp" color="green" onPress={this.OnSignUp} />
+          <Button title="SignUp" color="orange" onPress={this.OnSignUp} />
 
           <View style={{ paddingTop: 50 }} />
 
           <Button
             title="have already account?
             Login"
-            color="green"
+            color="orange"
             onPress={this.OnBackToLogin}
           />
         </View>

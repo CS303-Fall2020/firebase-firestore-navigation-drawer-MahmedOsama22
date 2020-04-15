@@ -70,20 +70,20 @@ export default class ForgotPassword extends React.Component {
 
           <View style={{ paddingTop: 40 }} />
 
-          <Button title="Reset Password" onPress={this.OnResetPassword} color="green" />
+          <Button title="Reset Password" onPress={this.OnResetPassword} color="orange" />
 
           <View style={{ paddingTop: 50 }} />
 
           <Button
             title="SignUp"
-            color="green"
+            color="orange"
             onPress={this.OnBackToSignUp}
           />
           <View style={{ paddingTop: 50 }} />
 
           <Button
             title="Login"
-            color="green"
+            color="orange"
             onPress={this.OnBackToLogin}
           />
         </View>

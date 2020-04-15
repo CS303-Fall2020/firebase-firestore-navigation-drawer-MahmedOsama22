@@ -14,7 +14,7 @@ const screens = {
             headerRight: () => <Header1 />,
 
             headerStyle: {
-                backgroundColor: 'green',
+                backgroundColor: 'orange',
             }
         }
     },

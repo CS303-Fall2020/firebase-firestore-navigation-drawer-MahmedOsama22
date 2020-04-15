@@ -14,7 +14,7 @@ export default function TodoItem({
     <TouchableOpacity onPress={() => pressHandler1(item, edit)}>
       <View style={styles.item}>
         <TouchableOpacity onPress={() => pressHandler(item.id)}>
-          <MaterialIcons name="delete" size={18} color="green" />
+          <MaterialIcons name="delete" size={18} color="orange" />
         </TouchableOpacity>
         <View style={styles.itemText}>
           <Text style={Boolean(item.completed) && { textDecorationLine: "line-through" }}>{item.title}</Text>
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 16,
     marginTop: 16,
-    borderColor: "green",
+    borderColor: "orange",
     borderWidth: 1,
     borderStyle: "dashed",
     borderRadius: 10,

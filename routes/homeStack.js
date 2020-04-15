@@ -20,7 +20,7 @@ const screens = {
             title: 'Login',
             headerLeft: null,
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     },
@@ -30,7 +30,7 @@ const screens = {
             title: 'SignUp',
             headerLeft: null,
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     },
@@ -40,7 +40,7 @@ const screens = {
             title: 'Forgot Password',
             headerLeft: null,
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     },
@@ -50,7 +50,7 @@ const screens = {
             title: 'main',
             headerLeft: null,
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     },
@@ -60,7 +60,7 @@ const screens = {
             headerTitle: () => <Header />,
             headerLeft: null,
             headerStyle: {
-                backgroundColor: 'green',
+                backgroundColor: 'orange',
             },
             headerRight: () => <Header1 />
         }
@@ -70,7 +70,7 @@ const screens = {
         navigationOptions: {
             title: 'ToDo Details',
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     }

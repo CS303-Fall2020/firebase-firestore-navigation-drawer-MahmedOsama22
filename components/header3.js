@@ -9,7 +9,7 @@ export default function Header3() {
 
     return (
         <View style={styles.header}>
-            <Button title="SignOut" color="green" onPress={OnSignOut} />
+            <Button title="SignOut" color="orange" onPress={OnSignOut} />
             <Text style={styles.title1}>Profile</Text>
         </View>
     )

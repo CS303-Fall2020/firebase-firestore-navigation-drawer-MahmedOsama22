@@ -8,7 +8,7 @@ import Header3 from '../components/header3'
 const RootDrawerNavigation = createDrawerNavigator({
     Home: {
         screen: HomeStack,
-        color: 'green'
+        color: 'orange'
     },
 
     Profile: {

@@ -16,7 +16,7 @@ const screens = {
                 headerTitle: () => <Header />,
                 headerRight: () => <Header1 />,
                 headerStyle: {
-                    backgroundColor: 'green',
+                    backgroundColor: 'orange',
                 },
             }
         }
@@ -26,7 +26,7 @@ const screens = {
         navigationOptions: {
             title: 'ToDo Details',
             headerStyle: {
-                backgroundColor: 'green'
+                backgroundColor: 'orange'
             }
         }
     }

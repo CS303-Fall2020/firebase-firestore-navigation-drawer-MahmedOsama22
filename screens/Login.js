@@ -10,7 +10,7 @@ import {
   Keyboard,
   ActivityIndicator
 } from "react-native";
-import { NavigationActions, navigation } from "react-navigation";
+import { NavigationActions, navigation } from "@react-navigation/native";
 import * as firebase from "firebase";
 import { StackActions } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -96,7 +96,7 @@ export default class Login extends React.Component {
 
                   <View style={{ paddingTop: 20 }} />
 
-                  <Button title="Login" color="green" onPress={this.OnLogin} />
+                  <Button title="Login" color="orange" onPress={this.OnLogin} />
                 </>
               )}
           </View>
@@ -104,14 +104,14 @@ export default class Login extends React.Component {
           <View>
             <View style={{ paddingTop: 50 }} />
 
-            <Button title="SignUp" color="green" onPress={() =>
+            <Button title="SignUp" color="orange" onPress={() =>
               this.props.navigation.replace('SignUp', {})
             } />
             <View style={{ paddingTop: 50 }} />
 
             <Button
               title="Forgot Password?"
-              color="green"
+              color="orange"
               onPress={this.OnForgotPassword}
             />
           </View>

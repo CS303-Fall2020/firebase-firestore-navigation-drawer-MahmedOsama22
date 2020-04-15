@@ -31,7 +31,7 @@ export default function ReviewDetails({ navigation, route }) {
         onChangeText={(title) => changeHandler(title)}
         multiline={true}
       />
-      <Button onPress={() => f(navigation.getParam('item').id, title)} title='Done' color='green' />
+      <Button onPress={() => f(navigation.getParam('item').id, title)} title='Done' color='orange' />
 
     </View>
   )
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 16,
     marginTop: 16,
-    borderColor: 'green',
+    borderColor: 'orange',
     borderWidth: 1,
     borderStyle: 'dashed',
     borderRadius: 10,
